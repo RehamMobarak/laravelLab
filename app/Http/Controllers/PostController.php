@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Post;
 
 use App\Http\Requests\StorePostRequest;
-
+use App\Http\Requests\UpdatePostRequest;
 class PostController extends Controller
 {
     public function index()
@@ -53,13 +53,13 @@ class PostController extends Controller
         return view('posts.edit', ['post'=>$post]);
     }
 
-    public function update($id)
+    public function update(UpdatePostRequest $request,$id)
     {
         $post = Post::find($id);
-        $post->title = request()->title;
-        $post->content = request()->content;
-        $post->update(['title'=>request()->title,
-        'content'=>request()->content]);
+        $post->title = $request->title;
+        $post->content = $request->content;
+        $post->update(['title'=>$request->title,
+        'content'=>$request->content]);
         return redirect()->route('posts.index');
     }
 }

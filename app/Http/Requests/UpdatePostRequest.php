@@ -3,8 +3,9 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Validation\Rule;
 
-class StorePostRequest extends FormRequest
+class UpdatePostRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -24,10 +25,8 @@ class StorePostRequest extends FormRequest
     public function rules()
     {
         return [
-            //Title & description are required , minimum length for title is 3 chars and unique, for description the minimum length is 10 chars
-
-            'title'=>'required|min:3|unique:posts,title,id',
-            'content'=>'required|min:10'
+            'title'=>["required","min:3",Rule::unique("posts")->ignore($this->route()->post)] ,
+            'content'=>'required|min:10',
         ];
     }
 }
