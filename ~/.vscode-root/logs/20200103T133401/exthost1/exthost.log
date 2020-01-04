@@ -1,0 +1,97 @@
+[2020-01-03 13:34:12.658] [exthost] [info] extension host started
+[2020-01-03 13:34:12.684] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-01-03 13:34:12.684] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-01-03 13:34:12.708] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-01-03 13:34:12.709] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2020-01-03 13:34:12.782] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-01-03 13:34:12.783] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2020-01-03 13:34:12.973] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-01-03 13:34:12.974] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2020-01-03 13:34:13.018] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"extensionId":{"value":"dbaeumer.vscode-eslint","_lower":"dbaeumer.vscode-eslint"},"activationEvent":"*"}
+[2020-01-03 13:34:13.018] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/reham/.vscode/extensions/dbaeumer.vscode-eslint-1.9.1/client/out/extension
+[2020-01-03 13:34:13.098] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":true,"extensionId":{"value":"eamodio.gitlens","_lower":"eamodio.gitlens"},"activationEvent":"*"}
+[2020-01-03 13:34:13.098] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/reham/.vscode/extensions/eamodio.gitlens-10.2.0/dist/extension
+[2020-01-03 13:34:13.288] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"*"}
+[2020-01-03 13:34:13.289] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/reham/.vscode/extensions/esbenp.prettier-vscode-3.18.0/dist/extension
+[2020-01-03 13:34:13.566] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"extensionId":{"value":"formulahendry.auto-close-tag","_lower":"formulahendry.auto-close-tag"},"activationEvent":"*"}
+[2020-01-03 13:34:13.567] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/reham/.vscode/extensions/formulahendry.auto-close-tag-0.5.6/out/src/extension
+[2020-01-03 13:34:13.609] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"extensionId":{"value":"formulahendry.auto-rename-tag","_lower":"formulahendry.auto-rename-tag"},"activationEvent":"*"}
+[2020-01-03 13:34:13.609] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/reham/.vscode/extensions/formulahendry.auto-rename-tag-0.1.1/out/src/extension
+[2020-01-03 13:34:13.712] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"extensionId":{"value":"HookyQR.beautify","_lower":"hookyqr.beautify"},"activationEvent":"*"}
+[2020-01-03 13:34:13.712] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/reham/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2020-01-03 13:34:14.457] [exthost] [info] ExtensionService#_doActivateExtension odubuc.mysql-inline-decorator {"startup":true,"extensionId":{"value":"odubuc.mysql-inline-decorator","_lower":"odubuc.mysql-inline-decorator"},"activationEvent":"*"}
+[2020-01-03 13:34:14.458] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/reham/.vscode/extensions/odubuc.mysql-inline-decorator-0.0.5/out/extension
+[2020-01-03 13:34:14.502] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2020-01-03 13:34:14.502] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/reham/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2020-01-03 13:34:18.232] [exthost] [info] extension host started
+[2020-01-03 13:34:18.249] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-01-03 13:34:18.250] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-01-03 13:34:18.252] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-01-03 13:34:18.252] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2020-01-03 13:34:18.265] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-01-03 13:34:18.265] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2020-01-03 13:34:18.287] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-01-03 13:34:18.287] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2020-01-03 13:34:18.289] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"extensionId":{"value":"dbaeumer.vscode-eslint","_lower":"dbaeumer.vscode-eslint"},"activationEvent":"*"}
+[2020-01-03 13:34:18.289] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/reham/.vscode/extensions/dbaeumer.vscode-eslint-1.9.1/client/out/extension
+[2020-01-03 13:34:18.302] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":true,"extensionId":{"value":"eamodio.gitlens","_lower":"eamodio.gitlens"},"activationEvent":"*"}
+[2020-01-03 13:34:18.302] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/reham/.vscode/extensions/eamodio.gitlens-10.2.0/dist/extension
+[2020-01-03 13:34:18.328] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"*"}
+[2020-01-03 13:34:18.329] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/reham/.vscode/extensions/esbenp.prettier-vscode-3.18.0/dist/extension
+[2020-01-03 13:34:18.355] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"extensionId":{"value":"formulahendry.auto-close-tag","_lower":"formulahendry.auto-close-tag"},"activationEvent":"*"}
+[2020-01-03 13:34:18.355] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/reham/.vscode/extensions/formulahendry.auto-close-tag-0.5.6/out/src/extension
+[2020-01-03 13:34:18.356] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"extensionId":{"value":"formulahendry.auto-rename-tag","_lower":"formulahendry.auto-rename-tag"},"activationEvent":"*"}
+[2020-01-03 13:34:18.356] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/reham/.vscode/extensions/formulahendry.auto-rename-tag-0.1.1/out/src/extension
+[2020-01-03 13:34:18.357] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"extensionId":{"value":"HookyQR.beautify","_lower":"hookyqr.beautify"},"activationEvent":"*"}
+[2020-01-03 13:34:18.357] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/reham/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2020-01-03 13:34:18.380] [exthost] [info] ExtensionService#_doActivateExtension odubuc.mysql-inline-decorator {"startup":true,"extensionId":{"value":"odubuc.mysql-inline-decorator","_lower":"odubuc.mysql-inline-decorator"},"activationEvent":"*"}
+[2020-01-03 13:34:18.380] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/reham/.vscode/extensions/odubuc.mysql-inline-decorator-0.0.5/out/extension
+[2020-01-03 13:34:18.383] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2020-01-03 13:34:18.383] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/reham/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2020-01-03 13:34:25.188] [exthost] [info] ExtensionService#_doActivateExtension Sophisticode.php-formatter {"startup":true,"extensionId":{"value":"Sophisticode.php-formatter","_lower":"sophisticode.php-formatter"},"activationEvent":"*"}
+[2020-01-03 13:34:25.188] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/reham/.vscode/extensions/sophisticode.php-formatter-0.2.4/out/extension
+[2020-01-03 13:34:25.993] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2020-01-03 13:34:25.994] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/main
+[2020-01-03 13:34:26.171] [exthost] [info] ExtensionService#_doActivateExtension felixfbecker.php-intellisense {"startup":true,"extensionId":{"value":"felixfbecker.php-intellisense","_lower":"felixfbecker.php-intellisense"},"activationEvent":"workspaceContains:**/*.php"}
+[2020-01-03 13:34:26.171] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/reham/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/out/extension
+[2020-01-03 13:34:27.515] [exthost] [info] eager extensions activated
+[2020-01-03 13:37:59.466] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"extensionId":{"value":"vscode.php-language-features","_lower":"vscode.php-language-features"},"activationEvent":"onLanguage:php"}
+[2020-01-03 13:37:59.466] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/php-language-features/dist/phpMain
+[2020-01-03 13:57:23.326] [exthost] [error] [felixfbecker.php-intellisense] provider FAILED
+[2020-01-03 13:57:23.328] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:365:239)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:365:188)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:169)
+	at asSymbolInformation (/home/reham/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+	at /home/reham/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/reham/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+	at /home/reham/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-01-03 14:09:18.164] [exthost] [error] [Sophisticode.php-formatter] provider FAILED
+[2020-01-03 14:09:18.164] [exthost] [error] Neither a pharPath or use of Composer was specified. Aborting...
+[2020-01-03 14:21:02.740] [exthost] [error] [felixfbecker.php-intellisense] provider FAILED
+[2020-01-03 14:21:02.740] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:365:239)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:365:188)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:169)
+	at asSymbolInformation (/home/reham/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+	at /home/reham/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/reham/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+	at /home/reham/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-01-03 14:21:03.355] [exthost] [error] [felixfbecker.php-intellisense] provider FAILED
+[2020-01-03 14:21:03.355] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:365:239)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:365:188)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:169)
+	at asSymbolInformation (/home/reham/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+	at /home/reham/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/reham/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+	at /home/reham/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-01-03 15:12:00.836] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2020-01-03 15:12:00.836] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/configuration-editing/dist/extension
+[2020-01-03 15:12:00.988] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-01-03 15:12:00.988] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2020-01-03 15:12:01.066] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-01-03 15:12:01.066] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
