@@ -21,7 +21,7 @@
       <th scope="row">{{$post['id']}}</th>
       <td>{{$post['title']}}</td>
       <td>{{$post['content']}}</td>
-      <td></td>
+      <td>{{$post->user->name}}</td>
       <td>{{$post['created_at']}}</td>
       <td><a href="{{route('posts.show',['post' => $post['id'] ])}}" class="btn btn-info">View</a>
         <form action="{{route('posts.destroy',['post' => $post['id'] ])}}" method="post">

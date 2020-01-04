@@ -26,9 +26,11 @@ class PostController extends Controller
         // $post->title = $request->title;
         // $post->content = $request->content;
         // $post->save();
+        // $request->user()->id;
         Post::create([
             'title' => $request->title,
-            'content' => $request->content
+            'content' => $request->content,
+            'user_id' =>$request->user()->id
         ]);
 
         return redirect()->route('posts.index');
