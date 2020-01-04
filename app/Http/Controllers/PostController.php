@@ -12,9 +12,9 @@ class PostController extends Controller
 {
     public function index()
     {
-        return view('posts.index', [
-            'posts' => Post::all(),
-        ]);
+        $posts=Post::paginate(2);
+        
+        return view('posts.index', ['posts' => $posts]);
     }
 
     public function create()

@@ -38,4 +38,5 @@
 
   </tbody>
 </table>
+{{ $posts->links() }}
 @endsection
