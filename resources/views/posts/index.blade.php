@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-<button type="button" class="btn btn-success">
-<a href="/posts/create">
+<button type="button" class="btn">
+<a href="/posts/create"  class="list-group-item list-group-item-action ">
 Create Post</a></button>
     <table class="table">
         <thead>
