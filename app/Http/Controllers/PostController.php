@@ -4,54 +4,62 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Post;
+
+use App\Http\Requests\StorePostRequest;
+
 class PostController extends Controller
 {
-    
-    function index () 
+    public function index()
     {
-        return view('posts.index',[
+        return view('posts.index', [
             'posts' => Post::all()
         ]);
     }
-    function create()
+    public function create()
     {
         return view('posts.create');
     }
 
-    function store()
+    public function store(StorePostRequest $request)
     {
         $post = new Post;
-        $post->title = request()->title;
-        $post->content = request()->content;
-        $post->save();      
+        // $post->title = $request->title;
+        // $post->content = $request->content;
+        // $post->save();
+        Post::create([
+            'title' => $request->title,
+            'content' => $request->content
+        ]);
+
         return redirect()->route('posts.index');
     }
 
-    function show($id)
+    public function show($id)
     {
         $post = Post::find($id);
-        return view('posts.show',['post'=>$post]);
-      
+        return view('posts.show', ['post'=>$post]);
     }
 
-    function destroy($id){
+    public function destroy($id)
+    {
         $post = Post::find($id);
         $post->delete();
         return redirect()->route('posts.index');
     }
 
-    function edit($id){
-       $post = Post::find($id);
-       return view('posts.edit',['post'=>$post]);
+    public function edit($id)
+    {
+        $post = Post::find($id);
+        return view('posts.edit', ['post'=>$post]);
     }
 
-    function update($id){
+    public function update($id)
+    {
         $post = Post::find($id);
         $post->title = request()->title;
         $post->content = request()->content;
         $post->update(['title'=>request()->title,
         'content'=>request()->content]);
         return redirect()->route('posts.index');
-
     }
 }

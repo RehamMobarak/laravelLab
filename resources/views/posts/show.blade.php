@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <table class="table">
+<!-- <table class="table">
         <thead>
           <tr>
             <th scope="col">#</th>
@@ -20,5 +20,25 @@
             </td>
           </tr>
         </tbody>
-      </table>
-@endsection
+      </table> -->
+
+
+
+<div class="row">
+  <div class="col-sm-6 m-3">
+    <div class="card">
+      <div class="card-header">
+        Post info
+      </div>
+      <div class="card-body">
+
+        <span class="font-weight-bold">Title:</span>
+        <span class="card-text"> {{$post['title']}} </span>
+        <p>
+          <span class="font-weight-bold">Content:</span>
+          <span class="card-text"> {{$post['content']}}</span>
+        </p>
+      </div>
+    </div>
+  </div>
+  @endsection
