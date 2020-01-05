@@ -31,12 +31,17 @@
         Post info
       </div>
       <div class="card-body">
-
-        <span class="font-weight-bold">Title:</span>
-        <span class="card-text"> {{$post['title']}} </span>
+        <p>
+          <span class="font-weight-bold">Title:</span>
+          <span class="card-text"> {{$post['title']}} </span>
+        </p>
         <p>
           <span class="font-weight-bold">Content:</span>
           <span class="card-text"> {{$post['content']}}</span>
+        </p>
+        <p>
+          <span class="font-weight-bold">Slug:</span>
+          <span class="card-text"> {{$post['slug']}}</span>
         </p>
       </div>
     </div>
