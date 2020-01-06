@@ -60,12 +60,21 @@ class LoginController extends Controller
         $user = User::where('provider_id', $getInfo->id)->first();
  
         if (!$user) {
-            $user = User::create([
-                'name'     => $getInfo->nickname,
-                'email'    => $getInfo->email,
-                'provider' => $provider,
-                'provider_id' => $getInfo->id,
-            ]);
+            if ($provider=='google') {
+                $user = User::create([
+                    'name'     => $getInfo->name,
+                    'email'    => $getInfo->email,
+                    'provider' => $provider,
+                    'provider_id' => $getInfo->id,
+                ]);
+            } else if ($provider=='github'){
+                $user = User::create([
+                    'name'     => $getInfo->nickname,
+                    'email'    => $getInfo->email,
+                    'provider' => $provider,
+                    'provider_id' => $getInfo->id,
+                ]);
+            }
         }
         return $user;
     }

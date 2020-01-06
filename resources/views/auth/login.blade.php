@@ -57,7 +57,7 @@
                                 </button>
                                 <a href="login/github" class="btn btn-dark text-light"> <i class="fab fa-github"></i> Login with github</a>
 
-                                <a href="{{ url('/auth/redirect/google') }}" class="btn btn-outline-primary"><i class="fab fa-google"></i> Login with Google</a>
+                                <a href="login/google" class="btn btn-outline-primary"><i class="fab fa-google"></i> Login with Google</a>
 
 
                                 @if (Route::has('password.request'))

@@ -31,5 +31,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('login/{provider}', 'Auth\LoginController@redirectToProvider');
 Route::get('login/{provider}/callback', 'Auth\LoginController@handleProviderCallback');
-Route::get('/auth/redirect/{provider}', 'SocialController@redirect');
-Route::get('/callback/{provider}', 'SocialController@callback');
+// Route::get('/auth/redirect/{provider}', 'SocialController@redirect');
+// Route::get('/callback/{provider}', 'SocialController@callback');

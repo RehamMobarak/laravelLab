@@ -37,6 +37,7 @@ function createUser($getInfo,$provider){
         'provider_id' => $getInfo->id
     ]);
   }
+  dd($user);
   return $user;
 }
 }
