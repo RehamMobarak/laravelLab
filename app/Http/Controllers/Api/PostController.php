@@ -29,7 +29,7 @@ class PostController extends Controller
         $post->id    = $request->input('id');
         $post->title = $request->input('title');
         $post->content  = $request->input('content');
-        
+        $post->user_id=$request->user()->id;
         if ($post->save()) {
             return new PostResource($post);
         }
