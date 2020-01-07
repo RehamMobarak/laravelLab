@@ -1,6 +1,8 @@
 <?php
-
+use App\Http\Resources\UserResource;
+use App\User;
 use Illuminate\Http\Request;
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -12,14 +14,18 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+Route::middleware('auth:api')->get('/user', function () {
+    return new UserResource(User::find(1));
 });
-
-Route::get('/posts','Api\PostController@index')->middleware('auth:api');
-Route::get('/posts/{post}','Api\PostController@show')->middleware('auth:api');
+Route::get('/users', function () {
+    return UserResource::collection(User::paginate());
+});
+Route::get('/posts', 'Api\PostController@index')->middleware('auth:api');
+Route::get('/posts/{post}', 'Api\PostController@show')->middleware('auth:api');
 
 // Route::get('/hello',function(){return 'hello';});
 Route::post('/post', 'Api\PostController@store')->middleware('auth:api');
 Route::put('/post', 'Api\PostController@store')->middleware('auth:api');
+
+
 
