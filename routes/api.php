@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Http\Request;
-
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -18,5 +17,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('/posts','Api\PostController@index')->middleware('auth:api');
-Route::get('/posts/{post}','Api\PostController@show');
+Route::get('/posts/{post}','Api\PostController@show')->middleware('auth:api');
+
 // Route::get('/hello',function(){return 'hello';});
+Route::post('/post', 'Api\PostController@store');
+Route::put('/post', 'Api\PostController@store');
+
