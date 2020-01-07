@@ -1,31 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-<!-- <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">Title</th>
-            <th scope="col">Content</th>
-            <th scope="col">Created at</th>
-          </tr>
-        </thead>
-        <tbody>
-         
-        <tr>
-        <th scope="row">{{$post['id']}}</th>
-            <td>{{$post['title']}}</td>
-            <td>{{$post['content']}}</td>
-            <td>{{$post['created_at']}}</td>
-            </td>
-          </tr>
-        </tbody>
-      </table> -->
-
-
-
 <div class="row">
-  <div class="col-sm-6 m-3">
+  <div class="col-6 m-3">
     <div class="card">
       <div class="card-header">
         Post info
@@ -46,4 +23,29 @@
       </div>
     </div>
   </div>
-  @endsection
+</div>
+
+  <div class="row">
+    <div class="col-6 m-3">
+      <div class="card">
+        <div class="card-header">
+          Creator info
+        </div>
+        <div class="card-body">
+          <p>
+            <span class="font-weight-bold">Name:</span>
+            <span class="card-text"> {{$post->user->name}} </span>
+          </p>
+          <p>
+            <span class="font-weight-bold">Email:</span>
+            <span class="card-text"> {{$post->user->email}}</span>
+          </p>
+          <p>
+            <span class="font-weight-bold"> User Created at:</span>
+            <span class="card-text">{{$post->user->created_at}}</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+    @endsection
