@@ -11,6 +11,7 @@
       <th scope="col">Title</th>
       <th scope="col">Slug</th>
       <th scope="col">Content</th>
+      <th scope="col">Enter Your Comment</th>
       <th scope="col">Created By</th>
       <th scope="col">Created at</th>
       <th scope="col">Actions</th>
@@ -23,6 +24,25 @@
       <td>{{$post['title']}}</td>
       <td>{{$post['slug']}}</td>
       <td>{{$post['content']}}</td>
+      <td>
+        <form method="post" enctype="multipart/form-data" action="/posts/{{$post['id']}}">
+          @csrf
+          @if ($errors->any())
+          <div class="alert alert-danger">
+            <ul>
+              @foreach ($errors->all() as $error)
+              <li>{{ $error }}</li>
+              @endforeach
+            </ul>
+          </div>
+          @endif
+          <div class="form-group">
+            <label for="body">Comment</label>
+            <input name="body" type="text" class="form-control">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </td>
       <td>{{$post->user->name}}</td>
       <td>{{$post['created_at']}}</td>
       <td><a href="{{route('posts.show',['post' => $post['id'] ])}}" class="btn btn-info">View</a>
