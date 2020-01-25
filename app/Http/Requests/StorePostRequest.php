@@ -27,7 +27,8 @@ class StorePostRequest extends FormRequest
             //Title & description are required , minimum length for title is 3 chars and unique, for description the minimum length is 10 chars
 
             'title'=>'required|min:3|unique:posts,title,id',
-            'content'=>'required|min:10'
+            'content'=>'required|min:10',
+            'image'=>'required'
         ];
     }
 }

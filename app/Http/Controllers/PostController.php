@@ -6,7 +6,6 @@ use App\Http\Requests\StorePostRequest;
 use App\Http\Requests\UpdatePostRequest;
 use App\Post;
 use Illuminate\Http\Request;
-use Illuminate\Support\Str;
 
 class PostController extends Controller
 {
@@ -29,11 +28,21 @@ class PostController extends Controller
         // $post->content = $request->content;
         // $post->save();
         // $request->user()->id;
+        $image=$request->file('image');
+        $fileExtension = $image->getClientOriginalExtension();
+        $fileName =$image->getClientOriginalName().".".$fileExtension;
+
+        $image->move(public_path('images'), $fileName);
+
+ 
+
         Post::create([
             'title' => $request->title,
             'content' => $request->content,
             'user_id' =>$request->user()->id,
+            'image'=>$fileName,
         ]);
+       
 
         return redirect()->route('posts.index');
     }
@@ -59,11 +68,19 @@ class PostController extends Controller
 
     public function update(UpdatePostRequest $request, $id)
     {
+        $image=$request->file('image');
+        $fileExtension = $image->getClientOriginalExtension();
+        $fileName =$image->getClientOriginalName().".".$fileExtension;
+
+        $image->move(public_path('images'), $fileName);
+
         $post = Post::find($id);
         $post->title = $request->title;
         $post->content = $request->content;
+        $post->image = $fileName;
+
         $post->update(['title'=>$request->title,
-            'content'=>$request->content, ]);
+            'content'=>$request->content, 'image'=>$fileName]);
         return redirect()->route('posts.index');
     }
 }

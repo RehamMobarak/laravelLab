@@ -11,6 +11,7 @@
       <th scope="col">Title</th>
       <th scope="col">Slug</th>
       <th scope="col">Content</th>
+      <th scope="col">Picture</th>
       <th scope="col">Enter Your Comment</th>
       <th scope="col">Created By</th>
       <th scope="col">Created at</th>
@@ -24,6 +25,8 @@
       <td>{{$post['title']}}</td>
       <td>{{$post['slug']}}</td>
       <td>{{$post['content']}}</td>
+      <td><img src="{{URL::to('/')}}/images/{{$post['image']}}" class="img-thumbnail" width="75" >
+         </td>
       <td>
         <form method="post" enctype="multipart/form-data" action="/posts/{{$post['id']}}">
           @csrf

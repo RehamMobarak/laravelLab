@@ -17,4 +17,5 @@ public function commentable()
 {
     return $this->morphTo();
 }
+
 }

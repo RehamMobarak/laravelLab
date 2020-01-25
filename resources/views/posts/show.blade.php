@@ -20,7 +20,10 @@
           <span class="font-weight-bold">Slug:</span>
           <span class="card-text"> {{$post['slug']}}</span>
         </p>
-
+        <p>
+          <span class="font-weight-bold">image:</span>
+          <span class="card-text"> <img src="{{URL::to('/')}}/images/{{$post['image']}}" class="img-thumbnail" width="75" ></span>
+        </p>
         <p>
           <span class="font-weight-bold">Comments:</span>
           <ul>

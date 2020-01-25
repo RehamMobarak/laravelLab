@@ -10,7 +10,9 @@ class Post extends Model
 {
     use Sluggable;
 
-    protected $fillable = ['title', 'content','user_id'];
+
+    protected $fillable = ['title', 'content','user_id','image'];
+
 
     public function getCreatedAtAttribute($date)
     {
@@ -34,5 +36,6 @@ class Post extends Model
     public function comments()
     {
         return $this->morphMany(Comment::class, 'commentable');
-    }
+    } 
+
 }
